@@ -1,3 +1,6 @@
+require_relative "../lib/blackjack.rb"
+require_relative "./spec_helper.rb"
+
 describe "#deal_card" do
   it "generates a random number between 1-11" do
     20.times do 
